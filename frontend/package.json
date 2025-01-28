@@ -1,0 +1,39 @@
+{
+  "name": "webix-jet-app",
+  "version": "1.0.0",
+  "description": "Webix Jet App",
+  "main": "sources/myapp.js",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:watch": "vitest --watch",
+    "lint": "eslint sources/",
+    "build": "vite build",
+    "start": "vite",
+    "update": "ncu && ncu -u && npm i",
+    "format-write": "prettier --write sources && prettier --write **.mjs",
+    "format-check": "prettier --check sources && prettier --check **.mjs",
+    "format": "npm run format-check ; npm run format-write"
+  },
+  "keywords": [
+    "webix",
+    "jet"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "@faker-js/faker": "^9.3.0",
+    "@vitest/ui": "^2.1.8",
+    "globals": "^15.13.0",
+    "jsdom": "^25.0.1",
+    "prettier": "^3.4.2",
+    "vite": "^6.0.3",
+    "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "default-passive-events": "^2.0.0",
+    "webix": "^11.0.0",
+    "webix-jet": "^3.0.3"
+  }
+}

@@ -1,0 +1,50 @@
+const words = {
+    'new booking': 'Neue Buchung',
+    help: 'Hilfe',
+    reservations: 'Reservierungen',
+    language: 'Sprache',
+    profile: 'Mein Profil',
+
+    hello: 'Hello world!',
+    faq: 'FAQ',
+    administration: 'Administration',
+    dashboard: 'Dashboard',
+    fr: 'Französisch',
+    de: 'Deutsch',
+    it: 'Italienisch',
+    en: 'Englisch',
+    settings: 'Settings',
+    parkings: 'Parkings',
+    user: 'User',
+    myprofile: 'My Profile',
+    mybookings: 'My Bookings',
+    Hilfe: 'Hilfe',
+
+    // Mobile Applikation parkings.js
+    id: 'ID',
+    name: 'Name',
+    price: 'Preis',
+    type: 'Typ',
+    chargingStation: 'Ladestation',
+    locked: 'Gesperrt',
+    agency: 'Agentur',
+    image: 'Bild',
+    add: 'Hinzufügen',
+    edit: 'Bearbeiten',
+    delete: 'Löschen',
+    columns: 'Spalten',
+    export: 'Exportieren',
+    print: 'Drucken',
+    placeholderSearch: 'Suchen...',
+
+
+    myBookings : 'Meine Buchungen',
+    bookingAdministration : 'Administration Buchungen',
+    userAdministration : 'Administrierung Benutzer',
+    settingAdministration : 'Administration Einstellungen',
+    bookingAdministration : 'Administration Buchungen',
+    parkingAdministration : 'Administration Parkplätze',
+    newBooking : 'Neue Buchung',
+};
+
+export default words;
